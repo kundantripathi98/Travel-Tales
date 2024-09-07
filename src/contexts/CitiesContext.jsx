@@ -84,8 +84,7 @@ function CitiesProvider({ children }) {
     fetchCities();
   }, []);
 
-  const getCity = useCallback(
-    async function getCity(id) {
+const getCity = useCallback(async function getCity(id) {
       if (Number(id) === currentCity.id) return;
 
       dispatch({ type: "loading" });
@@ -100,9 +99,8 @@ function CitiesProvider({ children }) {
           payload: "There was an error loading the city...",
         });
       }
-    },
-    [currentCity.id]
-  );
+},[currentCity.id]);
+
 
   async function createCity(newCity) {
     dispatch({ type: "loading" });
