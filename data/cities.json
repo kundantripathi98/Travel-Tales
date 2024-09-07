@@ -1,0 +1,40 @@
+{
+  "cities": [
+    {
+      "id": "e1e4",
+      "cityName": "Rewari",
+      "country": "India",
+      "date": "2024-07-09T12:28:24.000Z",
+      "emoji": "🇮🇳",
+      "notes": "It was a nice journey",
+      "position": {
+        "lat": "28.16740358974635",
+        "lng": "76.61315917968751"
+      }
+    },
+    {
+      "id": "5d4d",
+      "cityName": "Delhi",
+      "country": "India",
+      "date": "2024-09-05T15:14:24.508Z",
+      "emoji": "🇮🇳",
+      "notes": "I live here, it's nice",
+      "position": {
+        "lat": "28.68732578909458",
+        "lng": "77.15782531748069"
+      }
+    },
+    {
+      "id": "0b50",
+      "cityName": "Jaipur",
+      "country": "India",
+      "date": "2024-09-06T02:18:02.202Z",
+      "emoji": "🇮🇳",
+      "notes": "I went to a govt. exam, that went terribly bad😁",
+      "position": {
+        "lat": "26.88761497845794",
+        "lng": "75.81579057661433"
+      }
+    }
+  ]
+}
