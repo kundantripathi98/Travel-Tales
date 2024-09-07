@@ -28,10 +28,10 @@ function reducer(state, action){
 }
 
 const FAKE_USER = {
-    name: "Jack",
-    email: "jack@example.com",
-    password: "qwerty",
-    avatar: "https://i.pravatar.cc/100?u=zz",
+    name: "Kundan Tripathi",
+    email: "kundantripathi1512@gmail.com",
+    password: "kundan",
+    avatar: "https://avatars.githubusercontent.com/u/124955318?v=4",
   };
 
 function AuthProvider({children}){
